@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1 ,h2,h3,h4,h5,h6,p a,span{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1220px;
+    box-shadow: border-box;
+    margin: auto;
+}
+/* header css */
+.header{
+    max-width: 1430px;
+    background: url(https://blogger.googleusercontent.com/img/a/AVvXsEiOHPDGyhKra2FIqVuwM7ToCEPbAlnYxGdew_0AsyNRdV30shR-5AJg11ReuUr7g2hBZfON3W-jkAHurGdv1WoiMhOEafgmOawa1yHEDC-L-4OgYaf5JdIxVDcMLwnyFKmbfPH4BfUiyPD6_JtiD3BuWKUZM-_0HwsitLUBUPG_9SJ3X3wVrLufouwzXg=s1000) no-repeat center center;
+    padding: 220px 0;
+    background-size: cover;
+}
+.poitry-studio-text{}
+.poitry-studio-text h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    
+    margin-bottom: 30px;
+    font: 700;
+    font-weight: 400;
+}
+.poitry-studio-text p{
+   
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.btn-style{
+    font-size: 19px;
+background-color: rgb(243, 195, 37);
+padding: 13px 38px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+display: inline-block;
+margin-top: 20px;
+border-radius: 1px;
+
+}
+
+/* about text*/
+
+.about{}
+.about-left-text{
+    width: 50%;
+    float: left;
+    background-color: rgb(78, 77, 77);
+    text-align: center;
+    background-color: rgb(82, 79, 79);
+    padding: 187px 1px;
+    margin-top: 0px;
+   
+
+
+}
+.about-left-text h2{
+    color: whitesmoke;
+    margin-bottom: 22px;
+    margin-top: -27px;
+
+    font-weight: 400;
+}
+.about-left-text  p{
+  color: whitesmoke;
+  line-height: 1.2rem;
+  box-sizing: border-box;
+
+ 
+}
+
+
+.about-right-text{
+    width: 50%;
+    float: right;
+    text-align: center;
+    background-color: black;
+    padding: 163px 1px;
+    margin-top: -475px;
+    
+}
+.about-right-text h2{
+    color: whitesmoke;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.about-right-text h5{
+    color: whitesmoke;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.about-right-text h5 span{
+ 
+}
+
+/* workshop css*/
+.workshop-section{}
+.workshop-left{
+float: left;
+width: 30%;
+text-align: center;
+margin-top: 141px;
+}
+.workshop-right{
+float: right;
+width: 70%;
+}
+.workshop-card-container{
+    
+}
+.workshop-card{}
+.workshop-card span{
+    margin-left: -100px;
+}
+
+.workshop-card h2{
+font-weight: 400;
+margin-bottom: 39px;
+font-size: 40px;
+
+}
+.workshop-card p{
+  letter-spacing: 1px;
+  color: rgb(158, 157, 154);
+}
+.btn-ss .btn-style{
+    margin-top: 10px;
+}
+
+/* STUFIO MEMBER CSS */
+.studio-background{
+    background-color: black;
+}
+.studio-membership{}
+.studio-left{
+    width: 70%;
+    float: left;
+    
+}
+.studio-left-img{}
+.studio-left-img img{
+    max-width: 100%;
+    margin-top: -3px;
+}
+.studio-right{
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin-top: 100px;
+   
+
+}
+.studio-right-text{}
+.studio-card-container{
+    margin-top: 10px;
+}
+.studio-card{}
+.studio-card h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+.studio-card h2 span{
+    
+  
+}
+.studio-card p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(158, 157, 154);
+}
+
+
+.from-our-student{
+    background: url(https://blogger.googleusercontent.com/img/a/AVvXsEje9_iad_ZPYBjhJ6y_zo0IqQ1AAVCEi6tbrZMdA_QcgRQa4K3IPYA1sksFzzXDNTs-Exf51Wzq9pCoYRfy16A5lw2Vns-_iU6rAKh4otDX2dy-VCXSS9-hbgWkSAMQ8jR272sHJ2yxQW94-y5i1tOlC27t1oRhxNO5AaiE27jDbaHyIuQtxSOsmXR27Q=s1000) no-repeat center center;
+    padding: 70px 0;
+    background-size: cover;
+    clear: both;
+   
+}
+.form-student-text{
+    text-align:center;
+}
+.form-card-container{
+    background: white;
+display: inline-block;
+text-align: center;
+}
+.form-card{
+    height: 401px;
+    width: 450px;
+    margin-top: 141px;
+    position: relative;
+}
+.form-card h2{
+    font-size: 30px;
+margin-top: 10px;
+}
+.form-card p{
+    text-align: center;
+    margin-top: 47px;
+    line-height: 36px;
+}
+.newslatter-text{
+  
+}
+.newslatter-section{
+    clear: both;
+    position: absolute;
+    background: black;
+    padding: 116px 514px;
+    margin-top: 70px;
+}
+.newslatter-text{}
+.newslatter-text h1{
+    color: rgb(254, 254, 255);
+    font-size: 50px;
+   
+}
+.newslatter-text p{
+    color: rgb(254, 254, 255);
+    font-size: 20px;
+}
+.mail{
+    padding: 15px 31px;
+}
+.button{
+    display: inline-block;
+    padding: 20px 2px;
+}
